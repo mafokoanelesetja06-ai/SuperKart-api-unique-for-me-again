@@ -7,7 +7,7 @@ import requests
 import os
 BACKEND_URL = os.getenv(
     "BACKEND_URL",
-    "http://172.18.0.1:7860"
+    "https://potential-space-robot-r76wwg94rjx7cwwjg-7860.app.github.dev"
 )
 
 st.write("BACKEND_URL =", BACKEND_URL)
