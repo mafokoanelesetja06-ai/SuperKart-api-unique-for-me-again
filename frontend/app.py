@@ -4,6 +4,7 @@ import pandas as pd
 import requests
 
 # Base URL of the Flask backend
+import os
 BACKEND_URL = os.getenv(
     "BACKEND_URL",
     "http://172.18.0.1:7860"
