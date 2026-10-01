@@ -9,6 +9,8 @@ BACKEND_URL = os.getenv(
     "http://172.18.0.1:7860"
 )
 
+st.write("BACKEND_URL =", BACKEND_URL)
+
 # Page title
 st.title("SuperKart System")
 st.write(
